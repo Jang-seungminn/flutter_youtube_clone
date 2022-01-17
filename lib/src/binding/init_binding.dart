@@ -1,4 +1,5 @@
-import 'package:flutter_youtube_clone/controller/app_controller.dart';
+
+import 'package:flutter_youtube_clone/src/controller/app_controller.dart';
 import 'package:get/get.dart';
 import 'package:get/get_instance/get_instance.dart';
 
