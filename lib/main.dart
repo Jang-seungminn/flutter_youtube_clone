@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_youtube_clone/src/app.dart';
 import 'package:flutter_youtube_clone/src/binding/init_binding.dart';
+import 'package:flutter_youtube_clone/src/components/youtube_detail.dart';
 import 'package:get/get.dart';
 
 
@@ -24,6 +25,7 @@ class MyApp extends StatelessWidget {
       initialRoute: "/",
       getPages: [
         GetPage(name: "/", page: ()=>App()),
+        GetPage(name: "/detail/:videoId", page: ()=>YoutubeDetail()),
       ],
     );
   }
